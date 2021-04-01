@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0871A2C25489E6400C03290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0871A2B25489E6400C03290 /* AppDelegate.swift */; };
+		D0871A2E25489E6400C03290 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0871A2D25489E6400C03290 /* SceneDelegate.swift */; };
+		D0871A3025489E6400C03290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0871A2F25489E6400C03290 /* ContentView.swift */; };
+		D0871A3225489E6500C03290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0871A3125489E6500C03290 /* Assets.xcassets */; };
+		D0871A3525489E6500C03290 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0871A3425489E6500C03290 /* Preview Assets.xcassets */; };
+		D0871A3825489E6500C03290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0871A3625489E6500C03290 /* LaunchScreen.storyboard */; };
+		D0871A842549927800C03290 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0871A832549927800C03290 /* Pacifico-Regular.ttf */; };
+		D0871A852549927800C03290 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0871A832549927800C03290 /* Pacifico-Regular.ttf */; };
+		D0871A862549927800C03290 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0871A832549927800C03290 /* Pacifico-Regular.ttf */; };
+		D0871A8E2549934900C03290 /* Parisienne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0871A8D2549934900C03290 /* Parisienne-Regular.ttf */; };
+		D0871A8F2549934900C03290 /* Parisienne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0871A8D2549934900C03290 /* Parisienne-Regular.ttf */; };
+		D0871A902549934900C03290 /* Parisienne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0871A8D2549934900C03290 /* Parisienne-Regular.ttf */; };
+		D0DE2CA3254AE2A5003BA201 /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE2CA2254AE2A5003BA201 /* MyInfoView.swift */; };
+		D0DE2CB7254AED73003BA201 /* Merienda-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0DE2CB6254AED73003BA201 /* Merienda-Regular.ttf */; };
+		D0DE2CBB254AEE78003BA201 /* Merienda-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0DE2CB6254AED73003BA201 /* Merienda-Regular.ttf */; };
+		D0DE2CBF254AEE78003BA201 /* Merienda-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0DE2CB6254AED73003BA201 /* Merienda-Regular.ttf */; };
+		D0DE2CC4254AEF07003BA201 /* KaushanScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0DE2CC3254AEF07003BA201 /* KaushanScript-Regular.ttf */; };
+		D0DE2CC5254AEF07003BA201 /* KaushanScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0DE2CC3254AEF07003BA201 /* KaushanScript-Regular.ttf */; };
+		D0DE2CC6254AEF07003BA201 /* KaushanScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0DE2CC3254AEF07003BA201 /* KaushanScript-Regular.ttf */; };
+		D0DE2CCE254AF3F1003BA201 /* Merienda-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0DE2CCD254AF3F1003BA201 /* Merienda-Bold.ttf */; };
+		D0DE2CCF254AF3F1003BA201 /* Merienda-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0DE2CCD254AF3F1003BA201 /* Merienda-Bold.ttf */; };
+		D0DE2CD0254AF3F1003BA201 /* Merienda-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0DE2CCD254AF3F1003BA201 /* Merienda-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0871A3F25489E6500C03290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0871A2025489E6400C03290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0871A2725489E6400C03290;
+			remoteInfo = ortalCard;
+		};
+		D0871A4A25489E6500C03290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0871A2025489E6400C03290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0871A2725489E6400C03290;
+			remoteInfo = ortalCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0871A2825489E6400C03290 /* ortalCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ortalCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0871A2B25489E6400C03290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0871A2D25489E6400C03290 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0871A2F25489E6400C03290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0871A3125489E6500C03290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0871A3425489E6500C03290 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0871A3725489E6500C03290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0871A3925489E6500C03290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0871A3E25489E6500C03290 /* ortalCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ortalCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0871A4925489E6500C03290 /* ortalCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ortalCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0871A832549927800C03290 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		D0871A8D2549934900C03290 /* Parisienne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Parisienne-Regular.ttf"; path = "../../../../../Downloads/Parisienne (1)/Parisienne-Regular.ttf"; sourceTree = "<group>"; };
+		D0DE2CA2254AE2A5003BA201 /* MyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
+		D0DE2CB6254AED73003BA201 /* Merienda-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Merienda-Regular.ttf"; path = "../../../../../Downloads/Merienda 2/Merienda-Regular.ttf"; sourceTree = "<group>"; };
+		D0DE2CC3254AEF07003BA201 /* KaushanScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.ttf"; sourceTree = "<group>"; };
+		D0DE2CCD254AF3F1003BA201 /* Merienda-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merienda-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0871A2525489E6400C03290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0871A3B25489E6500C03290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0871A4625489E6500C03290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0871A1F25489E6400C03290 = {
+			isa = PBXGroup;
+			children = (
+				D0871A2A25489E6400C03290 /* ortalCard */,
+				D0871A2925489E6400C03290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0871A2925489E6400C03290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0871A2825489E6400C03290 /* ortalCard.app */,
+				D0871A3E25489E6500C03290 /* ortalCardTests.xctest */,
+				D0871A4925489E6500C03290 /* ortalCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0871A2A25489E6400C03290 /* ortalCard */ = {
+			isa = PBXGroup;
+			children = (
+				D0871A5E2548A39500C03290 /* fonts */,
+				D0871A2B25489E6400C03290 /* AppDelegate.swift */,
+				D0871A2D25489E6400C03290 /* SceneDelegate.swift */,
+				D0871A2F25489E6400C03290 /* ContentView.swift */,
+				D0DE2CA2254AE2A5003BA201 /* MyInfoView.swift */,
+				D0871A3125489E6500C03290 /* Assets.xcassets */,
+				D0871A3625489E6500C03290 /* LaunchScreen.storyboard */,
+				D0871A3925489E6500C03290 /* Info.plist */,
+				D0871A3325489E6500C03290 /* Preview Content */,
+			);
+			path = ortalCard;
+			sourceTree = "<group>";
+		};
+		D0871A3325489E6500C03290 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0871A3425489E6500C03290 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0871A5E2548A39500C03290 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D0871A832549927800C03290 /* Pacifico-Regular.ttf */,
+				D0871A8D2549934900C03290 /* Parisienne-Regular.ttf */,
+				D0DE2CC3254AEF07003BA201 /* KaushanScript-Regular.ttf */,
+				D0DE2CB6254AED73003BA201 /* Merienda-Regular.ttf */,
+				D0DE2CCD254AF3F1003BA201 /* Merienda-Bold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0871A2725489E6400C03290 /* ortalCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0871A5225489E6500C03290 /* Build configuration list for PBXNativeTarget "ortalCard" */;
+			buildPhases = (
+				D0871A2425489E6400C03290 /* Sources */,
+				D0871A2525489E6400C03290 /* Frameworks */,
+				D0871A2625489E6400C03290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ortalCard;
+			productName = ortalCard;
+			productReference = D0871A2825489E6400C03290 /* ortalCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0871A3D25489E6500C03290 /* ortalCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0871A5525489E6500C03290 /* Build configuration list for PBXNativeTarget "ortalCardTests" */;
+			buildPhases = (
+				D0871A3A25489E6500C03290 /* Sources */,
+				D0871A3B25489E6500C03290 /* Frameworks */,
+				D0871A3C25489E6500C03290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0871A4025489E6500C03290 /* PBXTargetDependency */,
+			);
+			name = ortalCardTests;
+			productName = ortalCardTests;
+			productReference = D0871A3E25489E6500C03290 /* ortalCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0871A4825489E6500C03290 /* ortalCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0871A5825489E6500C03290 /* Build configuration list for PBXNativeTarget "ortalCardUITests" */;
+			buildPhases = (
+				D0871A4525489E6500C03290 /* Sources */,
+				D0871A4625489E6500C03290 /* Frameworks */,
+				D0871A4725489E6500C03290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0871A4B25489E6500C03290 /* PBXTargetDependency */,
+			);
+			name = ortalCardUITests;
+			productName = ortalCardUITests;
+			productReference = D0871A4925489E6500C03290 /* ortalCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0871A2025489E6400C03290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D0871A2725489E6400C03290 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D0871A3D25489E6500C03290 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D0871A2725489E6400C03290;
+					};
+					D0871A4825489E6500C03290 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D0871A2725489E6400C03290;
+					};
+				};
+			};
+			buildConfigurationList = D0871A2325489E6400C03290 /* Build configuration list for PBXProject "ortalCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0871A1F25489E6400C03290;
+			productRefGroup = D0871A2925489E6400C03290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0871A2725489E6400C03290 /* ortalCard */,
+				D0871A3D25489E6500C03290 /* ortalCardTests */,
+				D0871A4825489E6500C03290 /* ortalCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0871A2625489E6400C03290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DE2CCE254AF3F1003BA201 /* Merienda-Bold.ttf in Resources */,
+				D0871A3825489E6500C03290 /* LaunchScreen.storyboard in Resources */,
+				D0871A842549927800C03290 /* Pacifico-Regular.ttf in Resources */,
+				D0871A3525489E6500C03290 /* Preview Assets.xcassets in Resources */,
+				D0871A3225489E6500C03290 /* Assets.xcassets in Resources */,
+				D0DE2CB7254AED73003BA201 /* Merienda-Regular.ttf in Resources */,
+				D0DE2CC4254AEF07003BA201 /* KaushanScript-Regular.ttf in Resources */,
+				D0871A8E2549934900C03290 /* Parisienne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0871A3C25489E6500C03290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DE2CC5254AEF07003BA201 /* KaushanScript-Regular.ttf in Resources */,
+				D0871A852549927800C03290 /* Pacifico-Regular.ttf in Resources */,
+				D0DE2CBB254AEE78003BA201 /* Merienda-Regular.ttf in Resources */,
+				D0871A8F2549934900C03290 /* Parisienne-Regular.ttf in Resources */,
+				D0DE2CCF254AF3F1003BA201 /* Merienda-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0871A4725489E6500C03290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DE2CC6254AEF07003BA201 /* KaushanScript-Regular.ttf in Resources */,
+				D0871A862549927800C03290 /* Pacifico-Regular.ttf in Resources */,
+				D0DE2CBF254AEE78003BA201 /* Merienda-Regular.ttf in Resources */,
+				D0871A902549934900C03290 /* Parisienne-Regular.ttf in Resources */,
+				D0DE2CD0254AF3F1003BA201 /* Merienda-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0871A2425489E6400C03290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DE2CA3254AE2A5003BA201 /* MyInfoView.swift in Sources */,
+				D0871A2C25489E6400C03290 /* AppDelegate.swift in Sources */,
+				D0871A2E25489E6400C03290 /* SceneDelegate.swift in Sources */,
+				D0871A3025489E6400C03290 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0871A3A25489E6500C03290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0871A4525489E6500C03290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0871A4025489E6500C03290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0871A2725489E6400C03290 /* ortalCard */;
+			targetProxy = D0871A3F25489E6500C03290 /* PBXContainerItemProxy */;
+		};
+		D0871A4B25489E6500C03290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0871A2725489E6400C03290 /* ortalCard */;
+			targetProxy = D0871A4A25489E6500C03290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0871A3625489E6500C03290 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0871A3725489E6500C03290 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0871A5025489E6500C03290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0871A5125489E6500C03290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0871A5325489E6500C03290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ortalCard/Preview Content\"";
+				DEVELOPMENT_TEAM = FANXY6WS6C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ortalCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ortalPozniak.ortalCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0871A5425489E6500C03290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ortalCard/Preview Content\"";
+				DEVELOPMENT_TEAM = FANXY6WS6C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ortalCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ortalPozniak.ortalCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0871A5625489E6500C03290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FANXY6WS6C;
+				INFOPLIST_FILE = ortalCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ortalPozniak.ortalCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ortalCard.app/ortalCard";
+			};
+			name = Debug;
+		};
+		D0871A5725489E6500C03290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FANXY6WS6C;
+				INFOPLIST_FILE = ortalCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ortalPozniak.ortalCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ortalCard.app/ortalCard";
+			};
+			name = Release;
+		};
+		D0871A5925489E6500C03290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FANXY6WS6C;
+				INFOPLIST_FILE = ortalCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ortalPozniak.ortalCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ortalCard;
+			};
+			name = Debug;
+		};
+		D0871A5A25489E6500C03290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FANXY6WS6C;
+				INFOPLIST_FILE = ortalCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ortalPozniak.ortalCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ortalCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0871A2325489E6400C03290 /* Build configuration list for PBXProject "ortalCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0871A5025489E6500C03290 /* Debug */,
+				D0871A5125489E6500C03290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0871A5225489E6500C03290 /* Build configuration list for PBXNativeTarget "ortalCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0871A5325489E6500C03290 /* Debug */,
+				D0871A5425489E6500C03290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0871A5525489E6500C03290 /* Build configuration list for PBXNativeTarget "ortalCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0871A5625489E6500C03290 /* Debug */,
+				D0871A5725489E6500C03290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0871A5825489E6500C03290 /* Build configuration list for PBXNativeTarget "ortalCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0871A5925489E6500C03290 /* Debug */,
+				D0871A5A25489E6500C03290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0871A2025489E6400C03290 /* Project object */;
+}
